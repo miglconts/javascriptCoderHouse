@@ -59,6 +59,7 @@ const getResponse = async () => {
       "http://my-json-server.typicode.com/miglconts/javascriptCoderHouse/users"
     );
     const data = await response.json();
+    console.log(data);
     data.forEach((item) => {
       usersJson.push({
         name: item.name,
