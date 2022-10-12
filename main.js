@@ -56,11 +56,12 @@ let usersJson = [];
 const getResponse = async () => {
   try {
     const response = await fetch(
-      "http://my-json-server.typicode.com/miglconts/javascriptCoderHouse/users"
+      "https://miglconts.github.io/javascriptCoderHouse/db.json"
+      // "https://mocki.io/v1/f576cf2c-4f11-4f5e-a38d-9fdb64d1141d"
     );
     const data = await response.json();
-    console.log(data);
-    data.forEach((item) => {
+    console.log(data.users);
+    data.users.forEach((item) => {
       usersJson.push({
         name: item.name,
         lastName: item.lastName,
