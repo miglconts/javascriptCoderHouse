@@ -55,7 +55,7 @@ class User {
 let usersJson = [];
 const getResponse = async () => {
   try {
-    const response = await fetch("/users.json");
+    const response = await fetch("https://github.com/miglconts/javascriptCoderHouse/blob/main/users.json");
     const data = await response.json();
     data.forEach((item) => {
       usersJson.push({
