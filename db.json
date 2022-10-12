@@ -1,27 +1,29 @@
-[
-    {
-        "name": "Miguel Angel",
-        "lastName": "Contreras Cruz",
-        "income": 20000
-    },
-    {
-        "name": "Karla",
-        "lastName": "Mateos Flores",
-        "income": 26000
-    },
-    {
-        "name": "Ivette",
-        "lastName": "Cruz Contreras",
-        "income": 30000
-    },
-    {
-        "name": "Miriam",
-        "lastName": "Gonzalez Contreras",
-        "income": 46000
-    },
-    {
-        "name": "María Juana",
-        "lastName": "Cruz Juan",
-        "income": 210000
-    }
-]
+{
+    "users": [
+        {
+            "name": "Miguel Angel",
+            "lastName": "Contreras Cruz",
+            "income": 20000
+        },
+        {
+            "name": "Karla",
+            "lastName": "Mateos Flores",
+            "income": 26000
+        },
+        {
+            "name": "Ivette",
+            "lastName": "Cruz Contreras",
+            "income": 30000
+        },
+        {
+            "name": "Miriam",
+            "lastName": "Gonzalez Contreras",
+            "income": 46000
+        },
+        {
+            "name": "María Juana",
+            "lastName": "Cruz Juan",
+            "income": 210000
+        }
+    ]
+}
